@@ -113,7 +113,7 @@ the comments at the top of main.c for more information. */
 	/* Some of the standard demo test tasks assume a tick rate of 1KHz, even
 	though that is faster than would normally be warranted by a real
 	application. */
-	#define configTICK_RATE_HZ		( 1000 )	// Note, Arduino micros() function requires 1000
+	#define configTICK_RATE_HZ		( 100 )	// Note, Arduino micros() function requires 1000
 
 	/* The full demo always has tasks to run so the tick will never be turned
 	off.  The blinky demo will use the default tickless idle implementation to
